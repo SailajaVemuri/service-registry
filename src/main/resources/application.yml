@@ -1,0 +1,10 @@
+#configure discovery server
+eureka:
+ instance:
+  hostname: localhost
+ client: #Not a client
+  registerWithEureka: false
+  fetchRegistry: false
+#Http (Tomcat) port
+server:
+ port: 1111
